@@ -1,0 +1,105 @@
+===== A =====
+
+; <<>> DiG 9.20.20-1-Debian <<>> scanme.nmap.org A
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19307
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;scanme.nmap.org.		IN	A
+
+;; ANSWER SECTION:
+scanme.nmap.org.	4398	IN	A	45.33.32.156
+
+;; Query time: 8 msec
+;; SERVER: 172.20.10.1#53(172.20.10.1) (UDP)
+;; WHEN: Thu Sep 17 04:35:32 EDT 2026
+;; MSG SIZE  rcvd: 60
+
+===== AAAA =====
+
+; <<>> DiG 9.20.20-1-Debian <<>> scanme.nmap.org AAAA
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18688
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;scanme.nmap.org.		IN	AAAA
+
+;; ANSWER SECTION:
+scanme.nmap.org.	1750	IN	AAAA	2600:3c01::f03c:91ff:fe18:bb2f
+
+;; Query time: 4 msec
+;; SERVER: 172.20.10.1#53(172.20.10.1) (UDP)
+;; WHEN: Thu Sep 17 04:35:32 EDT 2026
+;; MSG SIZE  rcvd: 72
+
+===== NS =====
+
+; <<>> DiG 9.20.20-1-Debian <<>> scanme.nmap.org NS
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41729
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;scanme.nmap.org.		IN	NS
+
+;; AUTHORITY SECTION:
+nmap.org.		1800	IN	SOA	ns1.linode.com. hostmaster.nmap.com. 2021000018 14400 14400 1209600 3600
+
+;; Query time: 8 msec
+;; SERVER: 172.20.10.1#53(172.20.10.1) (UDP)
+;; WHEN: Thu Sep 17 04:35:32 EDT 2026
+;; MSG SIZE  rcvd: 110
+
+===== MX =====
+
+; <<>> DiG 9.20.20-1-Debian <<>> scanme.nmap.org MX
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 915
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;scanme.nmap.org.		IN	MX
+
+;; AUTHORITY SECTION:
+nmap.org.		1800	IN	SOA	ns1.linode.com. hostmaster.nmap.com. 2021000018 14400 14400 1209600 3600
+
+;; Query time: 4 msec
+;; SERVER: 172.20.10.1#53(172.20.10.1) (UDP)
+;; WHEN: Thu Sep 17 04:35:32 EDT 2026
+;; MSG SIZE  rcvd: 110
+
+===== TXT =====
+
+; <<>> DiG 9.20.20-1-Debian <<>> scanme.nmap.org TXT
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38646
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;scanme.nmap.org.		IN	TXT
+
+;; AUTHORITY SECTION:
+nmap.org.		1800	IN	SOA	ns1.linode.com. hostmaster.nmap.com. 2021000018 14400 14400 1209600 3600
+
+;; Query time: 12 msec
+;; SERVER: 172.20.10.1#53(172.20.10.1) (UDP)
+;; WHEN: Thu Sep 17 04:35:32 EDT 2026
+;; MSG SIZE  rcvd: 110
+

@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.20.20-1-Debian <<>> svn.nmap.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48743
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;svn.nmap.org.			IN	A
+
+;; ANSWER SECTION:
+svn.nmap.org.		4272	IN	A	50.116.1.184
+
+;; Query time: 12 msec
+;; SERVER: 172.20.10.1#53(172.20.10.1) (UDP)
+;; WHEN: Thu Sep 17 05:35:37 EDT 2026
+;; MSG SIZE  rcvd: 57
+

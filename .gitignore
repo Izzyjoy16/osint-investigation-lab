@@ -1,0 +1,15 @@
+# OSINT temporary files
+*.tmp
+*.log
+
+# Editor/system files
+*.swp
+*.swo
+*~
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment/configuration files
+.env

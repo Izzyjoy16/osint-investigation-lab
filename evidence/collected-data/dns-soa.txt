@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.20.20-1-Debian <<>> nmap.org SOA
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63573
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;nmap.org.			IN	SOA
+
+;; ANSWER SECTION:
+nmap.org.		4502	IN	SOA	ns1.linode.com. hostmaster.nmap.com. 2021000018 14400 14400 1209600 3600
+
+;; Query time: 467 msec
+;; SERVER: 172.20.10.1#53(172.20.10.1) (UDP)
+;; WHEN: Thu Sep 17 05:08:25 EDT 2026
+;; MSG SIZE  rcvd: 103
+

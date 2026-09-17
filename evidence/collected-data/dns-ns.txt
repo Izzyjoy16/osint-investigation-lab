@@ -1,0 +1,24 @@
+
+; <<>> DiG 9.20.20-1-Debian <<>> nmap.org NS
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56947
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;nmap.org.			IN	NS
+
+;; ANSWER SECTION:
+nmap.org.		3824	IN	NS	ns3.linode.com.
+nmap.org.		3824	IN	NS	ns4.linode.com.
+nmap.org.		3824	IN	NS	ns1.linode.com.
+nmap.org.		3824	IN	NS	ns5.linode.com.
+nmap.org.		3824	IN	NS	ns2.linode.com.
+
+;; Query time: 11 msec
+;; SERVER: 172.20.10.1#53(172.20.10.1) (UDP)
+;; WHEN: Thu Sep 17 05:06:07 EDT 2026
+;; MSG SIZE  rcvd: 137
+
